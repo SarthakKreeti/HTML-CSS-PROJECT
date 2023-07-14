@@ -43,7 +43,6 @@ html, body {
     position: relative;
     font-size: 4vw;
     font-family: 'Ligurino Condensed', bold;
-    /*font-family: 'Ligurino', bold;*/
     color: black;
   }
   .img-button{
@@ -146,7 +145,7 @@ html, body {
 {
   margin:0
 }
-/*changed from 991 px to 1000px*/
+
 @media (max-width:1000px)
 {
   .site-footer [class^=col-]
