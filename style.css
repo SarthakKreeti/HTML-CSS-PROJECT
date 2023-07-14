@@ -273,7 +273,6 @@ html, body {
 }
 
 .vertical-layout3 h{
-  /*white-space: nowrap;*/
   object-fit:contain;
 }
 
@@ -303,7 +302,7 @@ object-fit:contain;
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0.4, 0, 0, 0.3); /* Add the desired shadow */
+  box-shadow: 0 2px 4px rgba(0.4, 0, 0, 0.3); 
 }
 
 .circle-image {
