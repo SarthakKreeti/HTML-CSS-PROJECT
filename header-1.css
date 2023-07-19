@@ -30,7 +30,6 @@
       right: 0;
       left: 0;
       z-index: -1;
-      /*background-color: #d9f0f7;*/
       visibility: hidden;
       opacity: 0;
       transform: translateY(-100%);
@@ -60,7 +59,6 @@
         height: 100%;
           background-color: white;
           
-          /* Add any other styles for the child nav here */
         }
         .navbar-nav .nav-item {
          width: max-content;
@@ -68,7 +66,7 @@
         }
         .navbar-nav .nav-item a:hover {
           background-color:aqua;
-          color:black; /* Set the hover color to blue */
+          color:black; 
         }
 
         .logo-container{
