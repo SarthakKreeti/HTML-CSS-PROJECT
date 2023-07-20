@@ -83,6 +83,9 @@ body {
   font-size: 20px;
   padding: 3vw;
 }
+.vertical-layout h2{
+  margin-top: 20px;
+}
 
 .site-footer {
   width: 100%;
