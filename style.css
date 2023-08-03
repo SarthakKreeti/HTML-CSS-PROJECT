@@ -720,6 +720,15 @@ header {
     margin-right: auto;
     margin-left: auto;
   }
+header{
+  margin-left:1vw ;
+  margin-right: 1vw;
+}
+
+.nav-links a{
+  font-size: 2vh;
+  margin-left: 3vw;
+}
 }
 @media (device-width: 912px) and (device-height: 1368px) {
   .horizontal-layout-footer {
