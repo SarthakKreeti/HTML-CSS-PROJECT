@@ -574,6 +574,10 @@ header {
   .nav-links a {
     margin-left: 4vw;
   }
+  .img-text button{
+    font-size: 2vh;
+  }
+  
 }
 @media (max--moz-device-pixel-ratio: 0.55),
   (-webkit-max-device-pixel-ratio: 0.55),
@@ -740,3 +744,30 @@ header{
     height: 25vh;
   }
 }
+@media (device-width: 768px) and (device-height: 1024px) {
+ .col-md-4 p, .col-md-4 ul li{
+  font-size: 1.5vh;
+ }
+}
+@media (max--moz-device-pixel-ratio: 0.55),
+  (-webkit-max-device-pixel-ratio: 0.55),
+  (max-resolution: 0.55dppx) {
+.vertical-layout3 h3{
+  font-size: 0.8vh;
+}
+}
+
+@media (max--moz-device-pixel-ratio: 5.00),
+  (-webkit-max-device-pixel-ratio: 5.00),
+  (max-resolution: 5.00dppx) {
+.img-text button{
+  font-size: 1vw;
+}
+}
+@media (max--moz-device-pixel-ratio: 0.999),
+  (-webkit-max-device-pixel-ratio: 0.999),
+  (max-resolution: 0.999dppx) {
+    .img-text button{
+      font-size: 10px;
+    }
+  }
