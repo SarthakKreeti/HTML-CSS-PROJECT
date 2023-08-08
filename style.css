@@ -731,28 +731,7 @@ header {
     height: 100px;
   }
 }
-/*
-@media (device-width: 240px) and (device-height: 320px) {
-  .newsletter-container input[type="text"],
-  .newsletter-container input[type="email"],
-  .newsletter-container button.register-button{
-    width: 200px;
-    align-self: flex-start;
-    border-radius: 25px;
-  }
-  .doctor-item-list,.vertical-layout p{
-    align-items: center;
-    width: 200px;
-  }
-.logo img{
-  width: 100px;
-}
-.vertical-layout p{
-  align-items: center;
-}
 
-}
-*/
 @media (device-width: 768px) and (device-height: 1024px) {
   .col-md-4 p,
   .col-md-4 ul li {
