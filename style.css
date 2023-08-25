@@ -65,16 +65,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-color: #00a2c8;
-  padding: 5px;
+  padding: 5px 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  font-size: 1vw;
+  font-size: 8px;
   width: fit-content;
 }
 
 .img-text button:hover {
-  background-color: yellowgreen;
-  color: black;
+  background-color: grey;
 }
 
 .text {
@@ -266,7 +265,7 @@ ul.social-icons li a img:hover {
   color: grey;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
@@ -321,7 +320,6 @@ ul.social-icons li a img:hover {
 .quick-links-icon-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .quick-links-icon-list li img {
@@ -361,7 +359,7 @@ ul.social-icons li a img:hover {
 }
 
 .newsletter-container button.register-button:hover {
-  background-color: yellowgreen;
+  background-color: grey;
 }
 
 .footer-links-last {
@@ -516,8 +514,9 @@ ul.social-icons li a img:hover {
 }
 
 .s4 button:hover {
-  background-color: yellowgreen;
+  background-color: grey;
 }
+
 
 header {
   display: flex;
@@ -566,12 +565,12 @@ header {
   margin: 5px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 769px) {
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 0;
     background-color: #00a2c8;
     width: 100%;
@@ -582,7 +581,6 @@ header {
   .nav-links a {
     padding: 10px;
   }
-
   .hamburger {
     display: block;
   }
@@ -620,6 +618,8 @@ header {
   }
 }
 
+
+
 @media (max--moz-device-pixel-ratio: 2.99),
 (-webkit-max-device-pixel-ratio: 2.99),
 (max-resolution: 2.99dppx) {
@@ -645,6 +645,9 @@ header {
 
   .vertical-layout3 p {
     font-size: 0.5vw;
+  }
+  .img-text button{
+   font-size: 20px;
   }
 }
 
@@ -714,9 +717,6 @@ header {
     font-size: 50px;
   }
 
-  .img-text button {
-    font-size: 25px;
-  }
 
   .nav-links a {
     font-size: 2vh;
@@ -845,10 +845,6 @@ header {
     font-size: 5vh;
   }
 
-  .img-text button {
-    font-size: 2.5vh;
-    padding: 1px;
-  }
 }
 
 @media (max-width: 1280px) {
@@ -874,9 +870,6 @@ header {
     font-size: 2vw;
   }
 
-  .img-text button {
-    font-size: 1vw;
-  }
 }
 
 @media (max-width: 769px) {
@@ -914,7 +907,10 @@ header {
   .vertical-layout p {
     font-size: 4vw;
   }
-
+  .img-text button{
+    font-size: 5px;
+    padding: 3px 3px;
+  }
   .circle {
     width: 5vh;
     aspect-ratio: 1;
@@ -958,4 +954,16 @@ header {
   .footer-links-last li a {
     font-size: 15px;
   }
+}
+
+@media (min--moz-device-pixel-ratio: 2.5),
+(-webkit-min-device-pixel-ratio: 2.5),
+(min-resolution: 2.5dppx) {
+  .img-text p{
+   font-size: 10px;
+  }
+  .img-text button{
+    font-size: 8px;
+  }  
+
 }
