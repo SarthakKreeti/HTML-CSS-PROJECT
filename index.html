@@ -25,10 +25,10 @@
           <img src="./assets/logo.png" alt="" />
         </div>
         <nav class="nav-links" id="navLinks">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Services</a>
-          <a href="#">Contact</a>
+          <a href="#" id="home">Home</a>
+          <a href="#" id="about">About</a>
+          <a href="#" id="services">Services</a>
+          <a href="#" id="contact">Contact</a>
         </nav>
         <div class="hamburger" onclick="toggleMenu()">
           <div class="line"></div>
@@ -50,14 +50,14 @@
 
           <div class="img-text">
             <h1>SUCCESS ORIENTED</h1>
-            <p>Lorem ipsum dolor sit</p>
+            <p>Lorem ipsum dolor sit amet</p>
             <button>Read More</button>
           </div>
         </div>
       </div>
       <div class="c4">
         <div class="vertical-layout">
-          <h2>MEDICAL SERVICES</h2>
+          <h2 id="medical_services">MEDICAL SERVICES</h2>
           <img src="./assets/heartbeat.png" alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
@@ -66,7 +66,7 @@
             aperiam alias delectus assumenda.
           </p>
         </div>
-        <div class="grid-container">
+        <div class="grid-container" id="middle_grid">
           <ul class="doctor-item-list">
             <div class="horizontal-layout3">
               <div class="vertical-layout3">
@@ -155,7 +155,7 @@
     <div class="horizontal-layout-footer">
       <div class="row">
         <div class="col-md-4">
-          <h6>Find us</h6>
+          <h6 id="find_us">Find us</h6>
           <p class="text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
             reiciendis natus maxime, error quis illum.
@@ -176,7 +176,7 @@
           </ul>
         </div>
         <div class="col-md-4">
-          <h6>Quick Links</h6>
+          <h6 id="quick_links">Quick Links</h6>
           <ul class="footer-links">
             <li>
               <img src="./assets/arrow.png" alt="" /><a href="#">General Information</a>
@@ -211,15 +211,16 @@
     <hr />
     <div class="vertical-layout">
       <ul class="footer-links-last">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">CONTACT</a></li>
+        <li><a href="#" id="home_b">HOME</a></li>
+        <li><a href="#" id="about_b">ABOUT</a></li>
+        <li><a href="#" id="services_b">SERVICES</a></li>
+        <li><a href="#" id="contact_b">CONTACT</a></li>
       </ul>
       <p>
         Copyright &copy; 2019 All Rights
-        <a href="#">Mental&Health</a>.
+        <a href="#" style="color:skyblue">Mental&Health</a>
       </p>
+
       <ul class="social-icons">
         <li>
           <a href="https://www.facebook.com/">
@@ -243,6 +244,81 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollToBottomButton = document.getElementById("home");
+      scrollToBottomButton.addEventListener("click", function () {
+        var scrollHeight = document.documentElement.scrollHeight;
+
+        window.scrollTo({
+          top: scrollHeight / 8,
+          behavior: "smooth"
+        });
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollToBottomButton = document.getElementById("about");
+      scrollToBottomButton.addEventListener("click", function () {
+        var scrollHeight = document.documentElement.scrollHeight;
+
+        window.scrollTo({
+          top: scrollHeight,
+          behavior: "smooth"
+        });
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollButton = document.getElementById("services");
+
+      scrollButton.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        const sectionToScroll = document.getElementById("medical_services");
+        sectionToScroll.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollButton = document.getElementById("services_b");
+
+      scrollButton.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        const sectionToScroll = document.getElementById("medical_services");
+        sectionToScroll.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollButton = document.getElementById("contact_b");
+
+      scrollButton.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        const sectionToScroll = document.getElementById("find_us");
+        sectionToScroll.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollButton = document.getElementById("about_b");
+
+      scrollButton.addEventListener("click", function (event) {
+        event.preventDefault(); 
+        const sectionToScroll = document.getElementById("quick_links");
+        sectionToScroll.scrollIntoView({ behavior: "smooth" });
+      });
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var scrollToBottomButton = document.getElementById("contact");
+      scrollToBottomButton.addEventListener("click", function () {
+        var scrollHeight = document.documentElement.scrollHeight;
+
+        window.scrollTo({
+          top: scrollHeight,
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
+
 </body>
 
 </html>
