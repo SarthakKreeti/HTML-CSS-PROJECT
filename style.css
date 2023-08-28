@@ -966,6 +966,9 @@ header {
     top: 20px;
     left: 130px;
   }
+  .img-text p{
+   font-size: 2px;
+  }
 }
 
 @media (device-width: 768px) and (device-height: 1024px) {
@@ -1059,5 +1062,20 @@ header {
   .img-text button {
     font-size: 18px;
     margin-top: 5px;
+  }
+}
+@media (min--moz-device-pixel-ratio: 3.999),
+(-webkit-min-device-pixel-ratio: 3.999),
+(min-resolution: 3.999dppx) {
+  .img-text p {
+    font-size: 2.8vw;
+    padding-left: 0;
+  }
+
+  .img-text button {
+    margin-top: 1vw;
+    font-size: 1.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
   }
 }
