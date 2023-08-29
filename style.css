@@ -946,6 +946,7 @@ header {
 }
 
 .wrapit {
+  width: fit-content;
   margin-bottom: 0;
 }
 
@@ -1071,16 +1072,19 @@ header {
     padding-right: 1vw;
   }
 }
-@media (min-width:909px){
-  .img-text{
-   /* top: 10vw;
+
+@media (min-width:909px) {
+  .img-text {
+    /* top: 10vw;
     width: 40vw;*/
-    top:13vh;
-    left:44vw;
+    top: 13vh;
+    left: 44vw;
   }
-  .img-text h1{
+
+  .img-text h1 {
     font-size: 5vw;
   }
+
   .img-text p {
     font-size: 2vw;
     padding-left: 0;
@@ -1092,16 +1096,18 @@ header {
     padding-left: 1vw;
     padding-right: 1vw;
   }
-} 
+}
 
-@media (max-width:372px){
-  .img-text{
+@media (max-width:372px) {
+  .img-text {
     left: 45%;
     width: 40vw;
   }
-  .img-text h1{
+
+  .img-text h1 {
     font-size: 5vw;
   }
+
   .img-text p {
     font-size: 2vw;
     padding-left: 0;
@@ -1113,20 +1119,24 @@ header {
     padding-left: 1vw;
     padding-right: 1vw;
   }
-} 
+}
+
 @media (min--moz-device-pixel-ratio: 0.75),
 (-webkit-min-device-pixel-ratio: 0.75),
 (min-resolution: 0.75dppx) {
   .img-text {
-    top:110px;
-    left:45vw;
+    top: 110px;
+    left: 45vw;
   }
-  .img-text h1{
+
+  .img-text h1 {
     font-size: 4vw;
   }
+
   .img-text p {
     font-size: 2.7vw;
   }
+
   .img-text button {
     font-size: 1.7vw;
     margin-top: 20px;
@@ -1134,19 +1144,23 @@ header {
     padding-right: 1vh;
   }
 }
+
 @media (max--moz-device-pixel-ratio: 0.75),
 (-webkit-max-device-pixel-ratio: 0.75),
 (max-resolution: 0.75dppx) {
   .img-text {
-    top:150px;
-    left:45vw;
+    top: 150px;
+    left: 45vw;
   }
-  .img-text h1{
+
+  .img-text h1 {
     font-size: 110px;
   }
+
   .img-text p {
     font-size: 55px;
   }
+
   .img-text button {
     font-size: 35px;
     margin-top: 20px;
@@ -1154,19 +1168,23 @@ header {
     padding-right: 10px;
   }
 }
+
 @media (min--moz-device-pixel-ratio: 0.999),
 (-webkit-min-device-pixel-ratio: 0.999),
 (min-resolution: 0.999dppx) {
   .img-text {
-    top:15vw;
-    left:48vw;
+    top: 15vw;
+    left: 48vw;
   }
-  .img-text h1{
+
+  .img-text h1 {
     font-size: 4.2vw;
   }
+
   .img-text p {
     font-size: 2.3vw;
   }
+
   .img-text button {
     font-size: 1.5vw;
     margin-top: 2vw;
@@ -1175,15 +1193,15 @@ header {
   }
 }
 
-@media (max-width:769px){
-  .img-text{
-    left:50vw;
-    top:12vw;
+@media (max-width:769px) {
+  .img-text {
+    left: 50vw;
+    top: 12vw;
   }
-  .img-text button{
+
+  .img-text button {
     margin-top: -1.5vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
   }
 }
-
