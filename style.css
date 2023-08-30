@@ -283,7 +283,6 @@ ul.social-icons li a img:hover {
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  
   box-shadow: 0 2px 4px rgba(0.4, 0, 0, 0.3);
 }
 
@@ -439,11 +438,6 @@ ul.social-icons li a img:hover {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
-
-
-
-
-
   justify-content: center;
 }
 
@@ -947,7 +941,7 @@ header {
 }
 
 .wrapit {
-  width: fit-content;
+  width: 98%;
   margin-bottom: 0;
 }
 
@@ -961,7 +955,8 @@ header {
   ul.social-icons {
     height: 100px;
   }
-  .site-footer{
+
+  .site-footer {
     margin-top: 50px;
   }
 }
@@ -1209,8 +1204,9 @@ header {
     padding-right: 0.5vw;
   }
 }
-@media (width<277px){
-  .img-text{
+
+@media (width<277px) {
+  .img-text {
     top: 2vh;
     left: 55%;
   }
