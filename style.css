@@ -748,6 +748,16 @@ header {
 @media (max--moz-device-pixel-ratio: 0.55),
 (-webkit-max-device-pixel-ratio: 0.55),
 (max-resolution: 0.55dppx) {
+
+  input[type="text"]::placeholder {
+    font-size: 40px;
+    padding-left: 40px;
+  }
+
+  input[type="email"]::placeholder {
+    font-size: 40px;
+    padding-left: 40px;
+  }
   .logo img {
     width: 7vw;
   }
@@ -812,6 +822,7 @@ header {
     font-size: 1.7vh;
     margin-left: 1vw;
   }
+  
 }
 
 @media (max--moz-device-pixel-ratio: 0.34),
