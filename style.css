@@ -956,7 +956,6 @@ header {
 }
 
 .wrapit {
-  width: 98%;
   margin-bottom: 0;
 }
 
@@ -1211,6 +1210,9 @@ header {
   .img-text {
     left: 50vw;
     top: 12vw;
+  }
+  .wrapit{
+    width: 98%;
   }
 
   .img-text button {
