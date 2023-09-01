@@ -337,6 +337,7 @@ ul.social-icons li a img:hover {
 .newsletter-container input[type="email"] {
   width: 100%;
   padding: 10px;
+  font-size: 16px;
   margin-bottom: 1vh;
   color: white;
   background-color: #273238;
@@ -350,6 +351,7 @@ ul.social-icons li a img:hover {
   background-color: #00a2c8;
   color: white;
   border: none;
+  font-size: 15px;
   border-radius: 2vw;
   font-size: 100%;
   align-self: center;
@@ -521,6 +523,8 @@ header {
   align-items: center;
   color: #fff;
   padding: 10px;
+  margin-right: 0;
+  min-width: 268px;
 }
 
 .logo {
@@ -530,10 +534,6 @@ header {
 
 .logo img {
   width: 14vw;
-}
-
-.nav-links {
-  display: flex;
 }
 
 .nav-links a {
@@ -553,6 +553,7 @@ header {
 .hamburger {
   display: none;
   cursor: pointer;
+  margin-right: 0;
 }
 
 .line {
@@ -562,12 +563,13 @@ header {
   margin: 5px;
 }
 
+
 @media screen and (max-width: 769px) {
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 48px;
     left: 0;
     background-color: #00a2c8;
     width: 100%;
@@ -577,6 +579,7 @@ header {
 
   .nav-links a {
     padding: 10px;
+    margin-bottom: 2.2vh;
   }
 
   .hamburger {
@@ -613,6 +616,17 @@ header {
 
   100% {
     transform: translateY(0);
+  }
+}
+
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
   }
 }
 
@@ -662,9 +676,10 @@ header {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 769px) {
   .logo img {
     width: 100px;
+    margin-left: 42vw;
   }
 }
 
@@ -1203,11 +1218,56 @@ header {
     padding-left: 0.5vw;
     padding-right: 0.5vw;
   }
+
+  .newsletter-container button.register-button,
+  .newsletter-container input[type="text"],
+  .newsletter-container input[type="email"] {
+    border-radius: 10vw;
+    font-size: 3vw;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: 3vw;
+    margin-left: 1vw;
+  }
+
+  input[type="email"]::placeholder {
+    font-size: 3vw;
+    margin-left: 1vw;
+  }
+
+}
+
+@media (max-width: 500px) {
+  .logo img {
+    width: 100px;
+    margin-left: 30vw;
+  }
+
+  .nav-links a {
+    margin-bottom: 1vh;
+  }
 }
 
 @media (width<277px) {
   .img-text {
     top: 2vh;
     left: 55%;
+  }
+
+  .logo img {
+    margin-left: 35vw;
+  }
+}
+
+@media (width<500px) {
+  .logo img {
+    margin-left: 35vw;
+  }
+}
+
+@media (width<162px) {
+  .logo img {
+    margin-left: 45vw;
   }
 }
