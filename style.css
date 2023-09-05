@@ -833,11 +833,13 @@ header {
     font-size: 1.5vh;
     margin-left: 1vw;
   }
+
   ul.social-icons li a img {
     width: 100px;
     height: 100px;
     margin-bottom: 5vw;
   }
+
   .site-footer {
     position: fixed;
   }
@@ -1095,8 +1097,6 @@ header {
 
 @media (min-width:909px) {
   .img-text {
-    /* top: 10vw;
-    width: 40vw;*/
     top: 13vh;
     left: 44vw;
   }
