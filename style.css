@@ -1314,3 +1314,15 @@ header {
     margin-left: 67px;
   }
 }
+@media (width:768px)and (height:1024px){
+  ul.social-icons li a img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
+@media (width:820px) and (height:1180px){
+  ul.social-icons li a img {
+    width: 5vw;
+    height: 5vw;
+  }
+}
