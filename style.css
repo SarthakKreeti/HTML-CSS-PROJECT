@@ -1296,15 +1296,17 @@ header {
     padding-left: 40px;
   }
 }
-@media (width<769px){
+
+@media (width<769px) {
   ul.social-icons li a img {
-    width: 10vw; 
+    width: 10vw;
     height: 10vw;
     margin-bottom: 5vw;
   }
 }
-@media (width:280px){
-  .logo img{
+
+@media (width:280px) {
+  .logo img {
     margin-left: 67px;
   }
 }
