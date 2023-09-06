@@ -543,7 +543,7 @@ header {
   align-items: end;
   color: black;
   font-weight: 500;
-  margin-left: 1.5vw;
+  margin-left: 10px;
 }
 
 .nav-links a:hover {
@@ -1277,8 +1277,6 @@ header {
   }
 }
 
-
-
 @media screen and (max-width:162px) {
   .logo img {
     margin-left: 45vw;
@@ -1388,15 +1386,8 @@ header {
 }
 
 .nav-links a {
-  margin-left: 10vw;
-}
-
-@media (max--moz-device-pixel-ratio: 0.67),
-(-webkit-max-device-pixel-ratio: 0.0.67),
-(max-resolution: 0.67dppx) {
-  .nav-links a {
-    margin-left: 1.5vw;
-  }
+  margin-left: 3vw;
+  margin-right: 3vw;
 }
 
 @media screen and (max-width:769px) {
@@ -1408,5 +1399,22 @@ header {
 @media screen and (width:240px) {
   .nav-links {
     width: 112vw;
+  }
+}
+@media (min--moz-device-pixel-ratio: 0.999),
+(-webkit-min-device-pixel-ratio: 0.999),
+(min-resolution: 0.999dppx) {
+  .nav-links a{
+    margin-left: 4.2vw;
+    font-size: 1.9vw;
+  }
+}
+@media (max--moz-device-pixel-ratio: 0.998),
+(-webkit-max-device-pixel-ratio: 0.998),
+(max-resolution: 0.998dppx) {
+  .nav-links a{
+    margin-left:80px;
+    margin-right: 10px;
+    font-size: 45px;
   }
 }
