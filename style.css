@@ -180,7 +180,7 @@ body {
   display: inline-block;
 }
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .site-footer {
     padding-bottom: 0;
   }
@@ -542,12 +542,13 @@ header {
   padding: 10px;
   align-items: end;
   color: black;
-  margin-left: 1vw;
+  font-weight: 500;
+  margin-left: 1.5vw;
 }
 
 .nav-links a:hover {
-  background-color: grey;
-  color: white;
+  background-color: gainsboro;
+  color: black;
 }
 
 .hamburger {
@@ -565,21 +566,32 @@ header {
 
 
 @media screen and (max-width: 769px) {
+
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 48px;
     left: 0;
+    top: 55px;
     background-color: #00a2c8;
-    width: 100%;
+    width: 98%;
     text-align: center;
     z-index: 1;
   }
 
   .nav-links a {
+    font-size: 3.5vw;
     padding: 10px;
     margin-bottom: 2.2vh;
+    margin-left: 0;
+    width: 100%;
+    color: white;
+  }
+
+  .nav-links a:hover {
+    margin-left: 0;
+    color: black;
+    background-color: gainsboro;
   }
 
   .hamburger {
@@ -676,10 +688,10 @@ header {
   }
 }
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
   .logo img {
-    width: 100px;
-    margin-left: 42vw;
+    width: 40vw;
+    margin-left: 22vw;
   }
 }
 
@@ -901,7 +913,7 @@ header {
 
 }
 
-@media (max-width: 769px) {
+@media screen and (max-width: 769px) {
   ul.social-icons li a img {
     width: 5vw;
     height: auto;
@@ -1213,7 +1225,7 @@ header {
   }
 }
 
-@media (max-width:769px) {
+@media screen and (max-width: 769px) {
   .img-text {
     left: 50vw;
     top: 12vw;
@@ -1249,17 +1261,12 @@ header {
 }
 
 @media (max-width: 500px) {
-  .logo img {
-    width: 100px;
-    margin-left: 30vw;
-  }
-
   .nav-links a {
     margin-bottom: 1vh;
   }
 }
 
-@media (width<277px) {
+@media screen and (max-width:277px) {
   .img-text {
     top: 2vh;
     left: 55%;
@@ -1270,13 +1277,9 @@ header {
   }
 }
 
-@media (width<500px) {
-  .logo img {
-    margin-left: 35vw;
-  }
-}
 
-@media (width<162px) {
+
+@media screen and (max-width:162px) {
   .logo img {
     margin-left: 45vw;
   }
@@ -1301,7 +1304,7 @@ header {
   }
 }
 
-@media (width<769px) {
+@media screen and (max-width: 769px) {
   ul.social-icons li a img {
     width: 10vw;
     height: 10vw;
@@ -1314,15 +1317,96 @@ header {
     margin-left: 67px;
   }
 }
-@media (width:768px)and (height:1024px){
+
+@media (width:768px)and (height:1024px) {
   ul.social-icons li a img {
     width: 5vw;
     height: 5vw;
   }
 }
-@media (width:820px) and (height:1180px){
+
+@media (width:820px) and (height:1180px) {
   ul.social-icons li a img {
     width: 5vw;
     height: 5vw;
+  }
+}
+
+@media screen and(max-width:400px) {
+
+  .vertical-layout3 p,
+  .vertical-layout3 h3 {
+    font-size: 100%;
+    width: 98%;
+  }
+
+  .nav-links {
+    top: 50px;
+  }
+
+  .nav-links a {
+    color: white;
+  }
+
+}
+
+
+@media screen and (min-width:600px) {
+  .nav-links {
+    top: 73px;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .nav-links {
+    top: 85px;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .nav-links a {
+    font-size: 3.5vw;
+    color: white;
+  }
+}
+
+@media screen and (max-width:281px) {
+  .nav-links {
+    top: 41px;
+  }
+
+  .nav-links a {
+    width: 100%;
+  }
+}
+
+@media screen and (width:280px) and (height:320px) {
+  .nav-links {
+    top: 42px;
+    width: 100%;
+  }
+}
+
+.nav-links a {
+  margin-left: 10vw;
+}
+
+@media (max--moz-device-pixel-ratio: 0.67),
+(-webkit-max-device-pixel-ratio: 0.0.67),
+(max-resolution: 0.67dppx) {
+  .nav-links a {
+    margin-left: 1.5vw;
+  }
+}
+
+@media screen and (max-width:769px) {
+  .nav-links a {
+    margin-left: 0;
+  }
+}
+
+@media screen and (width:240px) {
+  .nav-links {
+    width: 112vw;
   }
 }
