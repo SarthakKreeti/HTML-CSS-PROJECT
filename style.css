@@ -20,7 +20,7 @@ body {
 }
 
 .image-container {
-  min-width: 268px;
+ /* min-width: 268px;*/
   position: relative;
   display: flex;
   flex-grow: 1;
@@ -89,7 +89,7 @@ body {
 
 .vertical-layout {
   position: relative;
-  min-width: 268px;
+  /*min-width: 268px;*/
   align-self: center;
   display: flex;
   flex-grow: 1;
@@ -123,7 +123,7 @@ body {
   flex-basis: auto;
   background-color: #273238;
   padding: 45px 0 20px;
-  min-width: 268px;
+  /*min-width: 268px;*/
   font-size: 15px;
   line-height: 24px;
   color: #737373;
@@ -180,7 +180,7 @@ body {
   display: inline-block;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .site-footer {
     padding-bottom: 0;
   }
@@ -219,7 +219,7 @@ ul.social-icons li a img:hover {
 .grid-container {
   position: relative;
   display: grid;
-  min-width: 268px;
+ /* min-width: 268px;*/
   grid-template-columns: repeat(3, minmax(0, 1fr));
   object-fit: contain;
   width: 100%;
@@ -264,7 +264,7 @@ ul.social-icons li a img:hover {
   color: grey;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .grid-container {
     grid-template-columns: 1fr;
   }
@@ -364,7 +364,7 @@ ul.social-icons li a img:hover {
 
 .footer-links-last {
   justify-content: flex-start;
-  min-width: 268px;
+ /* min-width: 268px;*/
   list-style: none;
   padding: 0;
   display: flex;
@@ -524,7 +524,7 @@ header {
   color: #fff;
   padding: 10px;
   margin-right: 0;
-  min-width: 268px;
+  /*min-width: 268px;*/
 }
 
 .logo {
@@ -565,7 +565,7 @@ header {
 }
 
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
 
   .nav-links {
     display: none;
@@ -574,7 +574,7 @@ header {
     left: 0;
     top: 55px;
     background-color: #00a2c8;
-    width: 98%;
+    width: 100vw;
     text-align: center;
     z-index: 1;
   }
@@ -688,7 +688,7 @@ header {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .logo img {
     width: 40vw;
     margin-left: 22vw;
@@ -913,7 +913,7 @@ header {
 
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   ul.social-icons li a img {
     width: 5vw;
     height: auto;
@@ -1225,7 +1225,7 @@ header {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .img-text {
     left: 50vw;
     top: 12vw;
@@ -1302,7 +1302,7 @@ header {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   ul.social-icons li a img {
     width: 10vw;
     height: 10vw;
@@ -1383,7 +1383,7 @@ header {
   margin-right: 3vw;
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:767px) {
   .nav-links a {
     margin-left: 0;
   }
@@ -1393,13 +1393,20 @@ header {
   .nav-links {
     width: 112vw;
   }
+  .logo{
+    margin-left: -10vw;
+  }
+  .col-md-4 h6{
+    font-size: 10px;
+  }
+
 }
 @media (min--moz-device-pixel-ratio: 0.999),
 (-webkit-min-device-pixel-ratio: 0.999),
 (min-resolution: 0.999dppx) {
   .nav-links a{
     margin-left: 4.2vw;
-    font-size: 1.9vw;
+    font-size: 1.3vw;
   }
 }
 @media (max--moz-device-pixel-ratio: 0.998),
@@ -1408,13 +1415,18 @@ header {
   .nav-links a{
     margin-left:80px;
     margin-right: 10px;
-    font-size: 45px;
+    font-size: 27px;
   }
 }
-@media screen and (max-width:769px) {
+@media screen and (max-width:767px) {
   .nav-links a {
     font-size: 3.5vw;
     margin-left: 0;
     color: white;
+  }
+  .wrapit, .nav-links{
+    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
   }
 }
