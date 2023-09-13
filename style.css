@@ -1011,7 +1011,6 @@ header {
 }
 
 @media (max-width: 372px) {
-
   .img-text p,
   .img-text h1,
   .img-text button {
@@ -1417,6 +1416,6 @@ header {
 
 @media screen and (max-width:767px) {
   .vertical-layout3 h1 {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
 }
