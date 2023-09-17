@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <div class="wrapit">
+  <div class="wrapit" id="wrapit">
     <div class="c4">
       <header id="header">
         <div class="logo">
@@ -45,18 +45,15 @@
       </header>
     </div>
     <main>
-      <div class="image-container">
-        <div class="image-container2">
-          <img src="./assets/banner_1.jpg" alt="banner">
-          <div class="img-text">
-            <h1>SUCCESS ORIENTED</h1>
-            <p>Lorem ipsum dolor sit amet</p>
-            <a href="#">
-              <button>Read More</button>
-            </a>
-          </div>
+      <div class="image-container2">
+        <img src="./assets/banner_1.jpg" alt="banner">
+        <div>
+          <h1 id="success">SUCCESS ORIENTED</h1>
+          <p id="success_p">Lorem ipsum dolor sit amet</p>
+          <a href="#" id="blue_button">Read More </a>
         </div>
       </div>
+
       <div class="c4">
         <div class="vertical-layout">
           <h1 id="medical_services">MEDICAL SERVICES</h1>
@@ -107,10 +104,8 @@
               </div>
             </li>
           </ul>
-          <div class="container">
-            <div class="doctor-container">
-              <img src="./assets/doctor_2.png" alt="doctor">
-            </div>
+          <div class="doctor-container">
+            <img src="./assets/doctor_2.png" alt="doctor">
           </div>
           <ul class="doctor-item-list">
             <li class="horizontal-layout3">
@@ -153,7 +148,7 @@
         </div>
       </div>
     </main>
-    <footer class="site-footer">
+    <footer class="site-footer" id="site_footer">
       <div class="horizontal-layout-footer">
         <div class="row">
           <div class="col-md-4">
@@ -296,6 +291,7 @@
         });
       });
     });
+
   </script>
 </body>
 
