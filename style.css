@@ -494,7 +494,9 @@ header {
   .doctor-container img {
     margin-top: 200px;
   }
-
+  .site-footer {
+    position: fixed;
+  }
   .nav-links a {
     font-size: 1.5vh;
     margin-left: 1vw;
