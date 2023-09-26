@@ -9,14 +9,17 @@
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="wrapit">
-    <div class="c4">
+  <div class="wrapper">
+    <div class="containerizer">
       <header>
         <div class="logo">
-          <img src="./assets/logo.png" alt="logo" id="logo">
+          <img src="./assets/logo.png" alt="logo">
         </div>
         <nav class="nav-links" id="navLinks">
           <a href="#" id="home">Home</a>
@@ -47,9 +50,9 @@
         </div>
       </div>
 
-      <div class="c4">
+      <div class="containerizer">
         <div class="vertical-layout">
-          <h1 id="medical_services">MEDICAL SERVICES</h1>
+          <h2 id="medical_services">MEDICAL SERVICES</h2>
           <img src="./assets/heartbeat.png" alt="heartbeat_png">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
@@ -62,7 +65,7 @@
           <ul class="doctor-item-list">
             <li class="horizontal-layout3">
               <div class="vertical-layout3">
-                <h1>PROFESSIONAL DOCTORS</h1>
+                <h2>PROFESSIONAL DOCTORS</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
               <div class="circle">
@@ -71,7 +74,7 @@
             </li>
             <li class="horizontal-layout3">
               <div class="vertical-layout3">
-                <h1>EMERGENCY CARE</h1>
+                <h2>EMERGENCY CARE</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
               <div class="circle">
@@ -80,7 +83,7 @@
             </li>
             <li class="horizontal-layout3">
               <div class="vertical-layout3">
-                <h1>EXCLUSIVE BLOOD BANK</h1>
+                <h2>EXCLUSIVE BLOOD BANK</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
               <div class="circle">
@@ -89,7 +92,7 @@
             </li>
             <li class="horizontal-layout3">
               <div class="vertical-layout3">
-                <h1>24 HOURS SERVICE</h1>
+                <h2>24 HOURS SERVICE</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
               <div class="circle">
@@ -105,8 +108,8 @@
               <div class="circle">
                 <img src="./assets/service-5.png" alt="service-5" class="circle-image">
               </div>
-              <div class="vertical-layout3 v4">
-                <h1>MEDICAL COUNSELLING</h1>
+              <div class="vertical-layout3 left-align ">
+                <h2>MEDICAL COUNSELLING</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
             </li>
@@ -114,8 +117,8 @@
               <div class="circle">
                 <img src="./assets/service-6.png" alt="service-6" class="circle-image">
               </div>
-              <div class="vertical-layout3 v4">
-                <h1>REHABLITION CENTRE</h1>
+              <div class="vertical-layout3 left-align ">
+                <h2>REHABLITION CENTRE</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
             </li>
@@ -123,8 +126,8 @@
               <div class="circle">
                 <img src="./assets/service-7.png" alt="service-7" class="circle-image">
               </div>
-              <div class="vertical-layout3 v4">
-                <h1>SPECIAL CARE UNIT</h1>
+              <div class="vertical-layout3 left-align ">
+                <h2>SPECIAL CARE UNIT</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
             </li>
@@ -132,8 +135,8 @@
               <div class="circle">
                 <img src="./assets/service-8.png" alt="service-8" class="circle-image">
               </div>
-              <div class="vertical-layout3 v4">
-                <h1>INHOUSE PHARMACY</h1>
+              <div class="vertical-layout3 left-align ">
+                <h2>INHOUSE PHARMACY</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
               </div>
             </li>
@@ -145,7 +148,7 @@
       <div class="horizontal-layout-footer">
         <div class="row">
           <div class="col-md-4">
-            <h1 id="find_us">Find us</h1>
+            <h2 id="find_us">Find us</h2>
             <p class="text-justify">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
               reiciendis natus maxime, error quis illum.
@@ -166,7 +169,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <h1 id="quick_links">Quick Links</h1>
+            <h2 id="quick_links">Quick Links</h2>
             <ul class="footer-links">
               <li><a href="#">General Information</a></li>
               <li><a href="#">Blood bank</a></li>
@@ -178,7 +181,7 @@
           </div>
           <div class="col-md-4">
             <div class="newsletter-container">
-              <h1>NewsLetter</h1>
+              <h2>NewsLetter</h2>
               <input type="text" placeholder="Your Name">
               <input type="email" placeholder="Your Email">
               <button class="register-button">Register</button>
@@ -218,73 +221,45 @@
       </div>
     </footer>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-    crossorigin="anonymous"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-      var scrollToBottomButton = document.getElementById("home");
-      scrollToBottomButton.addEventListener("click", function () {
-        var scrollHeight = document.documentElement.scrollHeight;
-        window.scrollTo({
-          top: scrollHeight / 8,
-          behavior: "smooth"
-        });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      var scrollToBottomButton = document.getElementById("about");
-      scrollToBottomButton.addEventListener("click", function () {
-        var scrollHeight = document.documentElement.scrollHeight;
-        window.scrollTo({
-          top: scrollHeight,
-          behavior: "smooth"
-        });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      const scrollButton = document.getElementById("services");
-      scrollButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        const sectionToScroll = document.getElementById("medical_services");
+      function scrollToElement(elementId) {
+        const sectionToScroll = document.getElementById(elementId);
         sectionToScroll.scrollIntoView({ behavior: "smooth" });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      const scrollButton = document.getElementById("services_b");
-      scrollButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        const sectionToScroll = document.getElementById("medical_services");
-        sectionToScroll.scrollIntoView({ behavior: "smooth" });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      const scrollButton = document.getElementById("contact_b");
-      scrollButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        const sectionToScroll = document.getElementById("find_us");
-        sectionToScroll.scrollIntoView({ behavior: "smooth" });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      const scrollButton = document.getElementById("about_b");
-      scrollButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        const sectionToScroll = document.getElementById("quick_links");
-        sectionToScroll.scrollIntoView({ behavior: "smooth" });
-      });
-    });
-    document.addEventListener("DOMContentLoaded", function () {
-      var scrollToBottomButton = document.getElementById("contact");
-      scrollToBottomButton.addEventListener("click", function () {
-        var scrollHeight = document.documentElement.scrollHeight;
-        window.scrollTo({
-          top: scrollHeight,
-          behavior: "smooth"
-        });
-      });
-    });
+      }
 
+      document.getElementById("home").addEventListener("click", function () {
+        window.scrollTo({ top: document.documentElement.scrollHeight / 8, behavior: "smooth" });
+      });
+
+      document.getElementById("about").addEventListener("click", function () {
+        window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" });
+      });
+
+      document.getElementById("services").addEventListener("click", function (event) {
+        event.preventDefault();
+        scrollToElement("medical_services");
+      });
+
+      document.getElementById("services_b").addEventListener("click", function (event) {
+        event.preventDefault();
+        scrollToElement("medical_services");
+      });
+
+      document.getElementById("contact_b").addEventListener("click", function (event) {
+        event.preventDefault();
+        scrollToElement("find_us");
+      });
+
+      document.getElementById("about_b").addEventListener("click", function (event) {
+        event.preventDefault();
+        scrollToElement("quick_links");
+      });
+
+      document.getElementById("contact").addEventListener("click", function () {
+        window.scrollTo({ top: document.documentElement.scrollHeight, behavior: "smooth" });
+      });
+    });
   </script>
 </body>
 

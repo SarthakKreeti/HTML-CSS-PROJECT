@@ -30,7 +30,7 @@ a {
   padding-right: 3%;
 }
 
-.vertical-layout h1 {
+.vertical-layout h2 {
   margin-top: 20px;
   font-size: 2vw;
 }
@@ -56,7 +56,7 @@ a {
   margin: 20px 0;
 }
 
-.site-footer h1 {
+.site-footer h2 {
   color: #fff;
   font-size: 16px;
   text-transform: uppercase;
@@ -142,11 +142,11 @@ ul.social-icons li a img:hover {
   padding: 2px;
 }
 
-.v4 {
+.left-align {
   text-align: left;
 }
 
-.vertical-layout3 h1 {
+.vertical-layout3 h2 {
   font-weight: 500;
   position: relative;
   white-space: nowrap;
@@ -289,7 +289,7 @@ ul.social-icons li a img:hover {
   list-style: none;
 }
 
-.c4 {
+.containerizer {
   max-width: 2200px;
   margin: 0 auto;
 }
@@ -302,9 +302,7 @@ header {
   padding: 10px;
 }
 
-.logo {
-  cursor: pointer;
-}
+.logo {}
 
 .logo img {
   width: 14vw;
@@ -447,11 +445,11 @@ header {
     line-height: 1vw;
   }
 
-  .col-md-4 h1 {
+  .col-md-4 h2 {
     font-size: 1vh;
   }
 
-  .vertical-layout h1 {
+  .vertical-layout h2 {
     font-size: 2vh;
   }
 
@@ -463,7 +461,7 @@ header {
     width: 2vw;
   }
 
-  .vertical-layout3 h1 {
+  .vertical-layout3 h2 {
     font-size: 40px;
   }
 
@@ -514,7 +512,7 @@ header {
     height: 1400px;
   }
 
-  .vertical-layout h1 {
+  .vertical-layout h2 {
     font-size: 55px;
   }
 
@@ -537,7 +535,7 @@ header {
   box-shadow: 0 2px 4px rgb(0.5, 0.2, 0.8, 1);
 }
 
-.wrapit {
+.wrapper {
   margin-bottom: 0;
 }
 
@@ -574,7 +572,7 @@ header {
 }
 
 @media (min-resolution: 0.51dppx) and (max-resolution:1.499dppx) {
-  .horizontal-layout3 h1 {
+  .horizontal-layout3 h2 {
     font-size: 1.5vw;
   }
 
@@ -584,7 +582,7 @@ header {
 }
 
 @media (min-resolution: 0.9dppx) and (max-resolution:2.49dppx) {
-  .vertical-layout3 h1 {
+  .vertical-layout3 h2 {
     font-size: 1.5vw;
   }
 }
@@ -731,8 +729,8 @@ header {
     height: auto;
   }
 
-  .vertical-layout3 h1,
-  .vertical-layout h1 {
+  .vertical-layout3 h2,
+  .vertical-layout h2 {
     font-size: 2vw;
   }
 
@@ -758,11 +756,11 @@ header {
     font-size: 3vw;
   }
 
-  .vertical-layout h1 {
+  .vertical-layout h2 {
     font-size: 3vw;
   }
 
-  .wrapit {
+  .wrapper {
     width: 98%;
   }
 
@@ -793,14 +791,14 @@ header {
     width: 10vw;
   }
 
-  .wrapit,
+  .wrapper,
   .nav-links {
     margin: auto;
     width: 100%;
     overflow-x: hidden;
   }
 
-  .vertical-layout3 h1 {
+  .vertical-layout3 h2 {
     font-size: 4.5vw;
   }
 
@@ -823,7 +821,7 @@ header {
     margin: 1.7vw;
   }
 
-  .col-md-4 h1 {
+  .col-md-4 h2 {
     font-size: 10vw;
   }
 
