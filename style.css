@@ -13,7 +13,6 @@ a {
 
 .image-container2 img {
   width: 100%;
-  height: auto;
   object-fit: cover;
 }
 
@@ -28,11 +27,7 @@ a {
   font-size: 1.3vw;
   padding-left: 3%;
   padding-right: 3%;
-}
-
-.vertical-layout h2 {
-  margin-top: 20px;
-  font-size: 2vw;
+  text-align: center;
 }
 
 .vertical-layout img {
@@ -52,14 +47,9 @@ a {
   opacity: 0.5;
 }
 
-.site-footer hr.small {
-  margin: 20px 0;
-}
-
 .site-footer h2 {
   color: #fff;
   font-size: 16px;
-  text-transform: uppercase;
   margin-top: 5px;
   letter-spacing: 2px;
 }
@@ -68,25 +58,15 @@ a {
   color: #737373;
 }
 
-.site-footer a:hover {
-  color: #3366cc;
-}
-
 .footer-links {
   padding-left: 0;
   list-style: none;
 }
 
 .footer-links li {
-  background: url("./assets/arrow.png") left center no-repeat;
+  background: url(./assets/arrow.png) left center no-repeat;
   padding-left: 20px;
   list-style: none;
-}
-
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #3366cc;
 }
 
 .footer-links.inline li {
@@ -111,7 +91,6 @@ ul.social-icons li a {
 
 ul.social-icons li a img {
   width: 2vw;
-  height: auto;
 }
 
 ul.social-icons li a img:hover {
@@ -121,12 +100,10 @@ ul.social-icons li a img:hover {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;
 }
 
 .horizontal-layout3 {
   display: flex;
-  flex-grow: 1;
   width: 100%;
   height: 25%;
 }
@@ -148,14 +125,12 @@ ul.social-icons li a img:hover {
 
 .vertical-layout3 h2 {
   font-weight: 500;
-  position: relative;
   white-space: nowrap;
 }
 
 .vertical-layout3 p {
   position: relative;
   overflow-wrap: break-word;
-  font-size: 1.7vw;
   color: grey;
 }
 
@@ -166,7 +141,7 @@ ul.social-icons li a img:hover {
   align-self: center;
   width: 4vw;
   aspect-ratio: 1/1;
-  background-color: white;
+  background-color: #fff;
   position: relative;
   display: flex;
   flex-grow: 1;
@@ -174,40 +149,9 @@ ul.social-icons li a img:hover {
   box-shadow: 0 2px 4px rgb(0.4, 0, 0, 0.3);
 }
 
-.circle-image {
+.circle img {
   height: 80%;
   padding: 10%;
-}
-
-.find-us-icon-list {
-  list-style: none;
-  padding: 0;
-}
-
-.find-us-icon-list li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.find-us-icon-list li img {
-  width: 14px;
-  height: 14px;
-}
-
-.quick-links-icon-list {
-  list-style: none;
-  padding: 0;
-}
-
-.quick-links-icon-list li {
-  display: flex;
-  align-items: center;
-}
-
-.quick-links-icon-list li img {
-  width: 14px;
-  height: 14px;
 }
 
 .newsletter-container {
@@ -222,7 +166,7 @@ ul.social-icons li a img:hover {
   padding: 10px;
   font-size: 16px;
   margin-bottom: 1vh;
-  color: white;
+  color: #fff;
   background-color: #273238;
   border: #ccc solid 1px;
   border-radius: 2vw;
@@ -232,13 +176,10 @@ ul.social-icons li a img:hover {
   width: 100%;
   padding: 10px 20px;
   background-color: #00a2c8;
-  color: white;
+  color: #fff;
   border: none;
-  font-size: 15px;
   border-radius: 2vw;
   font-size: 100%;
-  justify-content: center;
-  align-self: center;
   cursor: pointer;
 }
 
@@ -263,19 +204,6 @@ ul.social-icons li a img:hover {
   list-style: none;
 }
 
-.find-us-icon-list li,
-.footer-links li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.find-us-icon-list li img,
-.footer-links li img {
-  width: 14px;
-  height: 14px;
-}
-
 .horizontal-layout-footer {
   padding-left: 2vw;
   padding-right: 2vw;
@@ -284,8 +212,6 @@ ul.social-icons li a img:hover {
 .doctor-item-list {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  align-items: center;
   list-style: none;
 }
 
@@ -298,11 +224,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   padding: 10px;
 }
-
-.logo {}
 
 .logo img {
   width: 14vw;
@@ -311,20 +234,19 @@ header {
 .nav-links a {
   font-size: 1vw;
   padding: 10px;
-  color: black;
+  color: #000;
   font-weight: 500;
   margin-left: 10px;
 }
 
 .nav-links a:hover {
-  background-color: gainsboro;
-  color: black;
+  background-color: #dcdcdc;
+  color: #000;
 }
 
 .hamburger {
   display: none;
   cursor: pointer;
-  margin-right: 0;
 }
 
 .line {
@@ -336,6 +258,34 @@ header {
 
 #medical_services {
   font-weight: 700;
+  margin-top: 20px;
+}
+
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #36c;
+}
+
+.find-us-icon-list,
+.quick-links-icon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.find-us-icon-list li,
+.find-us-icon-list li,
+.footer-links li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.find-us-icon-list li img,
+.quick-links-icon-list li img,
+.find-us-icon-list li img,
+.footer-links li img {
+  width: 14px;
+  height: 14px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -371,18 +321,6 @@ header {
   }
 }
 
-@media (max-resolution: 2.99dppx) {
-  .vertical-layout3 p {
-    font-size: 0.7vw;
-  }
-}
-
-@media (max-resolution: 2.55dppx) {
-  .vertical-layout3 p {
-    font-size: 0.5vw;
-  }
-}
-
 @media (max-resolution: 1.55dppx) {
   .nav-links a {
     margin-left: 4vw;
@@ -391,7 +329,6 @@ header {
 
 @media (max-resolution: 0.999dppx) {
   .horizontal-layout-footer {
-    align-self: center;
     max-width: 2200px;
     margin-right: auto;
     margin-left: auto;
@@ -404,9 +341,6 @@ header {
     max-height: 100%;
     background-size: cover;
     position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
   }
 
   header {
@@ -426,16 +360,6 @@ header {
 }
 
 @media (max-resolution: 0.55dppx) {
-  input[type="text"]::placeholder {
-    font-size: 20px;
-    padding-left: 20px;
-  }
-
-  input[type="email"]::placeholder {
-    font-size: 20px;
-    padding-left: 20px;
-  }
-
   .logo img {
     width: 7vw;
   }
@@ -461,14 +385,6 @@ header {
     width: 2vw;
   }
 
-  .vertical-layout3 h2 {
-    font-size: 40px;
-  }
-
-  .vertical-layout3 p {
-    font-size: 40px;
-  }
-
   .image-container2 img {
     height: 15vw;
   }
@@ -477,10 +393,17 @@ header {
     font-size: 1.7vh;
     margin-left: 1vw;
   }
-}
 
-.doctor-container {
-  height: 100%;
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .vertical-layout3 h2,
+  .vertical-layout3 p {
+    font-size: 40px;
+  }
 }
 
 .doctor-container img {
@@ -521,18 +444,8 @@ header {
   }
 }
 
-@media (max-width: 1280px) {
-  .nav-links a {
-    font-size: 2vw;
-  }
-
-  .vertical-layout3 p {
-    font-size: 1.3vw;
-  }
-}
-
 .circle:hover {
-  box-shadow: 0 2px 4px rgb(0.5, 0.2, 0.8, 1);
+  box-shadow: 0 2px 4px #000;
 }
 
 .wrapper {
@@ -560,18 +473,14 @@ header {
     width: 1vw;
   }
 
-  input[type="text"]::placeholder {
-    font-size: 40px;
-    padding-left: 40px;
-  }
-
+  input[type="text"]::placeholder,
   input[type="email"]::placeholder {
     font-size: 40px;
     padding-left: 40px;
   }
 }
 
-@media (min-resolution: 0.51dppx) and (max-resolution:1.499dppx) {
+@media (min-resolution: 0.51dppx) and (max-resolution: 1.499dppx) {
   .horizontal-layout3 h2 {
     font-size: 1.5vw;
   }
@@ -581,10 +490,21 @@ header {
   }
 }
 
-@media (min-resolution: 0.9dppx) and (max-resolution:2.49dppx) {
+@media (min-resolution: 0.9dppx) and (max-resolution: 2.49dppx) {
   .vertical-layout3 h2 {
     font-size: 1.5vw;
   }
+}
+
+@media (min-resolution: 0.79dppx) {
+  .vertical-layout3 p {
+    font-size: 1.5vw;
+  }
+}
+
+.left-shift {
+  margin-left: -60px;
+  z-index: -1;
 }
 
 #success {
@@ -603,7 +523,7 @@ header {
   font-size: 30px;
   top: 240px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #555555;
+  color: #555;
   white-space: nowrap;
 }
 
@@ -612,7 +532,7 @@ header {
   position: absolute;
   border: none;
   background-color: #00a2c8;
-  color: white;
+  color: #fff;
   top: 330px;
   left: 45vw;
   padding: 7px 12px;
@@ -646,16 +566,24 @@ header {
 }
 
 @media screen and (max-width: 767px) {
+  .left-shift {
+    margin-left: 0;
+  }
+
   .site-footer {
     padding-bottom: 0;
   }
 
-  .site-footer .copyright-text {
-    text-align: center;
+  .doctor-item-list {
+    padding-right: 10vw;
   }
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  .vertical-layout3 h2 {
+    font-size: 4vw;
   }
 
   #medical_services {
@@ -670,6 +598,8 @@ header {
     height: 40px;
     object-fit: contain;
     margin: 5px;
+    width: 40vw;
+    margin-left: 22vw;
   }
 
   .nav-links {
@@ -679,7 +609,6 @@ header {
     left: 0;
     top: 50px;
     background-color: #00a2c8;
-    width: 100vw;
     text-align: center;
     z-index: 1;
   }
@@ -687,16 +616,14 @@ header {
   .nav-links a {
     font-size: 3.5vw;
     padding: 10px;
-    margin-bottom: 2.2vh;
-    margin-left: 0;
+    margin: 0;
     width: 100%;
-    color: white;
+    color: #fff;
   }
 
   .nav-links a:hover {
-    margin-left: 0;
-    color: black;
-    background-color: gainsboro;
+    color: #000;
+    background-color: #dcdcdc;
   }
 
   .hamburger {
@@ -719,49 +646,11 @@ header {
     display: flex;
   }
 
-  .logo img {
-    width: 40vw;
-    margin-left: 22vw;
-  }
-
   ul.social-icons li a img {
     width: 5vw;
-    height: auto;
-  }
-
-  .vertical-layout3 h2,
-  .vertical-layout h2 {
-    font-size: 2vw;
-  }
-
-  .vertical-layout3 p,
-  .vertical-layout p {
-    font-size: 2vw;
-  }
-
-  .find-us-icon-list li,
-  .newsletter-container input::placeholder,
-  .newsletter-container button.register-button,
-  .footer-links li,
-  .text-justify,
-  .footer-links-last li {
-    font-size: 3vw;
-  }
-
-  .horizontal-layout3 h {
-    font-size: 4vw;
-  }
-
-  .horizontal-layout3 p {
-    font-size: 3vw;
-  }
-
-  .vertical-layout h2 {
-    font-size: 3vw;
-  }
-
-  .wrapper {
-    width: 98%;
+    width: 10vw;
+    height: 10vw;
+    margin-bottom: 5vw;
   }
 
   .newsletter-container button.register-button,
@@ -769,22 +658,6 @@ header {
   .newsletter-container input[type="email"] {
     border-radius: 10vw;
     font-size: 3vw;
-  }
-
-  input[type="text"]::placeholder {
-    font-size: 3vw;
-    margin-left: 1vw;
-  }
-
-  input[type="email"]::placeholder {
-    font-size: 3vw;
-    margin-left: 1vw;
-  }
-
-  ul.social-icons li a img {
-    width: 10vw;
-    height: 10vw;
-    margin-bottom: 5vw;
   }
 
   .vertical-layout img {
@@ -798,12 +671,24 @@ header {
     overflow-x: hidden;
   }
 
-  .vertical-layout3 h2 {
-    font-size: 4.5vw;
+  .find-us-icon-list li,
+  .footer-links li,
+  .text-justify,
+  .footer-links-last li,
+  .horizontal-layout3 p,
+  .vertical-layout h2 {
+    font-size: 3vw;
   }
 
-  .vertical-layout3 p {
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder {
     font-size: 3vw;
+    margin-left: 1vw;
+  }
+
+  .vertical-layout3 p,
+  .vertical-layout p {
+    font-size: 4.5vw;
   }
 }
 
@@ -825,34 +710,6 @@ header {
     font-size: 10vw;
   }
 
-  .newsletter-container button.register-button,
-  .newsletter-container input[type="text"],
-  .newsletter-container input[type="email"] {
-    border-radius: 10vw;
-    font-size: 5vw;
-    justify-content: center;
-    height: 20vw;
-    text-align: center;
-    justify-self: center;
-    justify-content: center;
-    margin-bottom: 10vw;
-    overflow-y: hidden;
-  }
-
-  input[type="text"]::placeholder {
-    font-size: 5vw;
-    margin-left: 1vw;
-  }
-
-  input[type="email"]::placeholder {
-    font-size: 5vw;
-    margin-left: 1vw;
-  }
-
-  .newsletter-container button.register-button {
-    align-items: center;
-  }
-
   .doctor-item-list {
     margin-left: -15vw;
   }
@@ -860,16 +717,15 @@ header {
   .circle {
     width: 20vw;
   }
-
 }
 
-@media screen and (max-width:114px) and (min-height:1200px) {
+@media screen and (max-width: 114px) and (min-height: 1200px) {
   .site-footer {
     margin-top: 180px;
   }
 }
 
-@media screen and (max-width:80px) {
+@media screen and (max-width: 80px) {
   .doctor-item-list {
     margin-left: -31vw;
   }
