@@ -414,6 +414,9 @@ header {
   .doctor-container img {
     margin-top: 200px;
   }
+  .grid-container{
+    height: 1300px;
+  }
 
   .site-footer {
     position: fixed;
