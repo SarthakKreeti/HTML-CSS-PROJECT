@@ -323,9 +323,10 @@ ul.social-icons li a img {
 }
 
 @media (max-resolution: 0.34dppx) {
-  .site-footer{
-    margin-top: 280px;
+  .site-footer {
+    margin-top: 350px;
   }
+
   .nav-links a {
     font-size: 1.5vh;
     margin-left: 1vw;
