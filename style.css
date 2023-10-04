@@ -33,7 +33,7 @@ ul li {
 
 .vertical-layout p {
   font-size: 1.3vw;
-  padding:0 3%;
+  padding: 0 3%;
   text-align: center;
 }
 
@@ -323,11 +323,9 @@ ul.social-icons li a img {
 }
 
 @media (max-resolution: 0.34dppx) {
-  .doctor-container img {
-    margin-top: 200px;
+  .site-footer{
+    margin-top: 280px;
   }
-
-
   .nav-links a {
     font-size: 1.5vh;
     margin-left: 1vw;
