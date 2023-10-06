@@ -22,7 +22,6 @@ ul li {
 
 .image-container2 img {
   width: 100%;
-  object-fit: cover;
 }
 
 .vertical-layout {
@@ -168,8 +167,7 @@ ul.social-icons li {
 }
 
 .horizontal-layout-footer {
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding: 0 30px;
 }
 
 header {
@@ -252,23 +250,33 @@ header {
 }
 
 @media (max-resolution: 0.999dppx) {
+  .doctor-container img {
+    height: 50%;
+    width: 450px;
+    height: 100%;
+    object-fit: contain;
+    margin: auto 0;
+  }
 
   .horizontal-layout-footer,
   .containerizer {
-    max-width: 2200px;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
   .image-container2 img {
     width: 100%;
     height: 20vw;
-    position: relative;
   }
 
   .nav-links a {
     margin-left: 80px;
     margin-right: 10px;
     font-size: 27px;
+  }
+
+  .vertical-layout3 p {
+    font-size: 30px;
   }
 }
 
@@ -278,8 +286,9 @@ header {
   }
 
   .site-footer {
-    font-size: 1.2vh;
-    line-height: 1vw;
+    font-size: 1vh;
+    margin-top: 10vw;
+    line-height: 50px;
   }
 
   .col-md-4 h2 {
@@ -307,14 +316,11 @@ header {
     margin-left: 1vw;
   }
 
-  .vertical-layout3 h2,
-  .vertical-layout3 p {
-    font-size: 40px;
-  }
 }
 
 .doctor-container img {
   max-width: 100%;
+  justify-content: center;
 }
 
 ul.social-icons li a img {
@@ -323,13 +329,9 @@ ul.social-icons li a img {
 }
 
 @media (max-resolution: 0.34dppx) {
-  .site-footer {
-    margin-top: 350px;
-  }
-
   .nav-links a {
-    font-size: 1.5vh;
-    margin-left: 1vw;
+    font-size: 1.2vh;
+    margin-left: 0.5vw;
   }
 
   .vertical-layout h2 {
@@ -349,6 +351,7 @@ ul.social-icons li a img {
     font-size: 40px;
     padding-left: 40px;
   }
+
 }
 
 .circle:hover {
@@ -358,16 +361,6 @@ ul.social-icons li a img {
 @media (max-width: 100px) and (min-height: 1000px) {
   .site-footer {
     margin-top: 180px;
-  }
-}
-
-@media (min-resolution: 0.51dppx) and (max-resolution: 1.499dppx) {
-  .horizontal-layout3 h2 {
-    font-size: 1.5vw;
-  }
-
-  .horizontal-layout3 p {
-    font-size: 1vw;
   }
 }
 
@@ -384,7 +377,7 @@ ul.social-icons li a img {
 }
 
 .left-shift {
-  margin-left: -30px;
+  margin-left: -0.8vw;
 }
 
 .success h1 {
@@ -445,7 +438,16 @@ ul.social-icons li a img {
   }
 }
 
+.copyright {
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 767px) {
+  .copyright {
+    font-size: 4.5vw;
+  }
+
   .left-shift {
     margin-left: 0;
   }
@@ -536,10 +538,14 @@ ul.social-icons li a img {
   .find-us-icon-list li,
   .footer-links li,
   .text-justify,
-  .footer-links-last li,
   .horizontal-layout3 p,
   .vertical-layout h2 {
     font-size: 3vw;
+  }
+
+  .footer-links-last li {
+    font-size: 5vw;
+    margin: 0 0.5vw;
   }
 
   .vertical-layout3 p,
@@ -559,6 +565,10 @@ ul.social-icons li a img {
     width: 10vw;
     height: 1.2vw;
     margin: 1.7vw;
+  }
+
+  .horizontal-layout-footer {
+    padding: 0;
   }
 
   .col-md-4 h2 {
