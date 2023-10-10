@@ -211,6 +211,10 @@ header {
   margin-top: 20px;
 }
 
+#medical_services_p {
+  margin-bottom: 2.5vh;
+}
+
 .footer-links a:hover {
   color: #36c;
 }
@@ -417,10 +421,6 @@ ul.social-icons li a img {
 }
 
 @media (min-resolution: 1dppx) {
-  .success {
-    left: 55vw;
-  }
-
   .success h1 {
     top: 8vw;
     font-size: 4vw;
@@ -441,6 +441,10 @@ ul.social-icons li a img {
 .copyright {
   white-space: nowrap;
   margin-bottom: 10px;
+}
+
+.copyright a {
+  color: skyblue;
 }
 
 @media screen and (max-width: 767px) {
